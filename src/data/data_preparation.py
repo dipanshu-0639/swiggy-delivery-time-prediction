@@ -18,7 +18,7 @@ logger.setLevel(logging.INFO)
 logger.addHandler(handler)
 
  #create a formatter
-formatter = logging.Formatter(fmt='%(asctime) - %(name)s - %(levelname)s - %(message)s')
+formatter = logging.Formatter(fmt='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 #add formatter to handler
 handler.setFormatter(formatter)
 
