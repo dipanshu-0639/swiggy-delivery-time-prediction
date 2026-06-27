@@ -89,3 +89,4 @@ target/
 
 #virtual environment
 .venv/
+/run_information.json
