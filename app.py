@@ -105,7 +105,7 @@ model_pipe = Pipeline(steps=[
 # create the app
 app = FastAPI()
 
-# create the home endpoint
+# create the home endpoints
 @app.get(path="/")
 def home():
     return "Welcome to the Swiggy Food Delivery Time Prediction App"
